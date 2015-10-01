@@ -34,7 +34,7 @@ git pull git://github.com/construct-components/atmosphere.git master
 <link rel="import" href="components/construct-atmosphere">
 ```
 
-3. The element extends the ardritary tag ```sky```
+3. The element extends the arbitrary tag ```sky```
 
 ```html
 <sky is="construct-atmosphere"></sky>
