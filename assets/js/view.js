@@ -8,6 +8,6 @@
 
 	});
 
-	APP.UI = APP.UI || {};
-	APP.UI.Component = View;
+	APP.Views = APP.Views || {};
+	APP.Views.Atmosphere = View;
 })( this.APP );
