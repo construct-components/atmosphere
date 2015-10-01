@@ -8,6 +8,10 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
+	<!-- dependencies -->
+	<link rel="import" href="../components/construct">
+	<link rel="import" href="../components/construct-camera">
+
 	<!-- Importing Web Component's Polyfill -->
 	<script src="../components/webcomponentsjs/webcomponents.min.js"></script>
 
@@ -17,7 +21,10 @@
 <body>
 
 	<!-- Custom Element -->
-	<ui-component></ui-component>
+	<div is="construct-3d" input-mouse="1">
+		<camera is="construct-camera" control="1"></camera>
+		<sky is="construct-atmosphere"></sky>
+	</div>
 
 </body>
 </html>
